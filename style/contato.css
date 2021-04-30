@@ -29,7 +29,7 @@ body {
     color: #545454
 }
 
-.buttons>a {
+.buttons a {
     text-decoration: none;
     padding: 20px;
 }
@@ -74,12 +74,12 @@ body {
     box-shadow: 0 0 5px rgb(254, 0, 120, 0.4);
 }
 
-.sidebar>input {
+.sidebar input {
     height: 42px;
     padding: 10px;
 }
 
-.sidebar>input:active {
+.sidebar input:active {
     border: unset;
     border: 2px solid #FE0078;
 }
@@ -153,7 +153,7 @@ footer {
     flex-direction: row;
 }
 
-.infoEndereco>img, .infoSuporte>img, .infoTelefone>img {
+.infoEndereco img, .infoSuporte img, .infoTelefone img {
     width: 16px;
     height: 16px;
     margin-right: 10px;
@@ -174,7 +174,7 @@ footer {
     flex: 1;
 }
 
-.dadosNome>input, .dadosEmail>input {
+.dadosNome input, .dadosEmail input {
     width: 95%;
 }
 
@@ -183,11 +183,11 @@ footer {
     margin-right: -12px;
 }
 
-.comentario>input {
+.comentario input {
     height: 150px;
 }
 
-.comentario>textarea {
+.comentario textarea {
     height: 100px;
     width: 100%;
     resize: none;
@@ -200,7 +200,7 @@ footer {
     margin-right: 50px;
 }
 
-.botaoEnviar>button {
+.botaoEnviar button {
     all: unset;
     padding: 12px 24px;
     border-radius: 30px;
@@ -216,25 +216,25 @@ footer {
     cursor: pointer;
 }
 
-.sidebar>input:focus, .sidebar>input:hover {
+.sidebar input:focus, .sidebar input:hover {
     border-radius: 20px;
     border-color: #FE0078;
     cursor: pointer;
 }
 
-.buttons>a:hover, buttons>a:active {
+.buttons a:hover, buttons a:active {
     border: 1px solid rgb(254, 0, 119, 0.5);
     border-radius: 10px;
     cursor: pointer;
 }
 
-.buttons>a:active {
+.buttons a:active {
     background-color: rgb(254, 0, 119, 0.4);
     cursor: pointer;
 }
 
 /*! acima é de todas as páginas, abaixo somente desta*/
 
-.comentario>textarea:focus, .dadosNome>input:focus, .dadosEmail>input:focus {
+.comentario textarea:focus, .dadosNome input:focus, .dadosEmail input:focus, .dadosAssunto input:focus {
     outline-color: #FE0078;
 }

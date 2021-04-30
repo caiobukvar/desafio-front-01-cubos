@@ -62,16 +62,11 @@ body {
     padding: 24px;
 }
 
-.button-post>a {
+.button-post a {
     all: unset;
     padding: 12px 24px;
     border: 1px solid #FE0078;
     border-radius: 30px;
-    cursor: pointer;
-}
-
-.button-post>a>button {
-    all: unset;
     cursor: pointer;
 }
 
@@ -99,7 +94,7 @@ body {
     box-shadow: 0 0 5px rgb(254, 0, 120, 0.4);
 }
 
-.sidebar>input {
+.sidebar input {
     height: 42px;
     padding: 10px;
 }
@@ -129,7 +124,7 @@ h3 {
     width: 340px;
 }
 
-.categorias>ul {
+.categorias ul {
     list-style-type: none;
     width: 340px;
 }
@@ -164,16 +159,9 @@ footer {
 
 /* ? CSS HOVER, FOCUS */
 
-.button-post>a:hover, .button-post>a:focus {
-    background-color: #FE0078;
-    font-weight: 500;
-    color: white;
-}
-
-.button-post>a>button:focus, .button-post>a>button:hover {
+.button-post a:hover {
     background-color: #FE0078;
     color: white;
-    cursor: pointer;
 }
 
 .listaFlex:focus, .listaFlex:hover {
@@ -182,13 +170,13 @@ footer {
     cursor: pointer;
 }
 
-.sidebar>input:focus, .sidebar>input:hover {
+.sidebar input:focus, .sidebar input:hover {
     border-radius: 20px;
     border-color: #FE0078;
     cursor: pointer;
 }
 
-.buttons>a:hover, buttons>a:active {
+.buttons a:hover, buttons a:active {
     border: 1px solid rgb(254, 0, 119, 0.5);
     border-radius: 10px;
     cursor: pointer;
@@ -196,7 +184,7 @@ footer {
     border-right: 3px solid #FE0078;
 }
 
-.buttons>a:active {
+.buttons a:active {
     background-color: rgb(254, 0, 119, 0.4);
     cursor: pointer;
 }
